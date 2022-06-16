@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity"
+    android:background="@drawable/fon2">
+
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aguafina_script"
+        android:text="@string/map"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="56sp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="@string/city"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/checkWeather"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:layout_below="@+id/edit"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/checkW"
+        android:textSize="20sp"
+        android:background="#09edc3"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_below="@+id/checkWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textColor="#09edc3"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/feel"
+        android:layout_below="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textColor="#09edc3"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>

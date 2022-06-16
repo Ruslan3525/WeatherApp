@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="app_in_name">Weather App</string>
+    <string name="app_in_name1">Know the weather around the world</string>
+    <string name="text_bottom">Login to your account</string>
+    <string name="button_signIn">Sign in</string>
+    <string name="button_register">Register</string>
+    <string name="map">Weather in your city</string>
+    <string name="city">Enter your city</string>
+    <string name="checkW">Check the weather</string>
+    <string name="no_text">Please enter city name</string>
+
+
+</resources>

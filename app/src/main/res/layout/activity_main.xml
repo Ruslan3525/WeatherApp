@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/lol"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/root_element">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/app_in_name"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="cursive"
+            android:text="@string/app_in_name1"
+            android:textAlignment="center"
+            android:textColor="@color/ripple_effect"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/aitusa">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/text_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/text_bottom"
+        android:textAlignment="center"
+        android:textColor="@color/ripple_effect"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_above="@+id/text_button">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_signIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_sign_in"
+            android:fontFamily="serif-monospace"
+            android:text="@string/button_signIn"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_sign_register"
+            android:fontFamily="serif-monospace"
+            android:text="@string/button_register"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

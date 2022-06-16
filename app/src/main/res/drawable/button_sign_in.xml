@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools='http://schemas.android.com/tools'
+    android:color="@color/ripple_effect"
+    tools:targetApi="lollipop">
+
+    <item>
+        <shape android:shape="rectangle"> //shape of button
+            <solid android:color="@color/btn_sign_in"></solid> //color of background
+            <stroke android:color="@color/btn_sign_in_stroke" android:width="2dp"></stroke>//button stroke color
+            <corners android:radius="2dp"></corners> //radius corners of button
+        </shape>
+    </item>
+</ripple>
